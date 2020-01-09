@@ -7,7 +7,7 @@ import os
 import sys
 
 SECRET = os.environ.get("SECRET", "verysecret")
-IAM_FILE = "./iam"
+IAM_FILE = "/opt/app-root/src/data/iam"
 
 app = Flask(__name__)
 
