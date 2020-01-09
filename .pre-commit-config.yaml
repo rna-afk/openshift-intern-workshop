@@ -11,7 +11,7 @@ repos:
       - id: check-added-large-files
       - id: check-ast
       - id: check-executables-have-shebangs
-      - id: check-merge-conflict
+      # - id: check-merge-conflict
       - id: detect-aws-credentials
       - id: detect-private-key
       - id: flake8
